@@ -1,0 +1,76 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-push-blocks-push-contact-form {
+  background-color: var(--color-black);
+  color: var(--color-white);
+
+  .block-title-small{
+    margin-bottom: 32px;
+  }
+
+  .image-wrapper{
+    position: relative;
+
+    @media(max-width: 767px){
+      order: 2;
+    }
+
+    .pic{
+      position: absolute;
+      right: 12px;
+      bottom: 0;
+      top: 0;
+      display: flex;
+      justify-content: flex-end;
+
+      @media(max-width: 767px){
+        position: relative;
+        right: 0;
+        justify-content: center;
+        transform: translateY(40px);
+      }
+
+      @media(max-width: 575px){
+        transform: translateY(35px);
+      }
+
+      @media(max-width: 440px){
+        transform: translateY(30px);
+      }
+
+      img{
+        height: calc(100% + 60px);
+        width: auto;
+        max-width: 200%;
+
+        @media(max-width: 1400px){
+          height: calc(100% + 55px);
+        }
+
+        @media(max-width: 1200px){
+          height: calc(100% + 50px);
+        }
+
+        @media(max-width: 992px){
+          height: calc(100% + 45px);
+        }
+
+        @media(max-width: 767px){
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+
+  .form-wrapper{
+    @media(max-width: 767px){
+      order: 1;
+    }
+  }
+}

@@ -1,0 +1,152 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/push-home-main-screen/style.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-push-blocks-push-home-main-screen {
+  min-height: 100vh;
+  background-color: var(--color-gray-soft);
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.wp-block-push-blocks-push-home-main-screen .content {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.wp-block-push-blocks-push-home-main-screen .text-wrapper {
+  position: relative;
+  z-index: 2;
+  width: calc(100% - 590px);
+  padding-top: 48px;
+}
+@media (max-width: 1400px) {
+  .wp-block-push-blocks-push-home-main-screen .text-wrapper {
+    width: calc(100% - 540px);
+  }
+}
+@media (max-width: 1200px) {
+  .wp-block-push-blocks-push-home-main-screen .text-wrapper {
+    width: calc(100% - 490px);
+  }
+}
+.wp-block-push-blocks-push-home-main-screen .main-title {
+  text-transform: uppercase;
+  line-height: 1.5;
+  font-size: 40px;
+  letter-spacing: -0.02em;
+  font-family: var(--font-unb);
+  font-weight: 500;
+  margin-bottom: 0;
+  color: var(--color-black-text);
+}
+@media (max-width: 1400px) {
+  .wp-block-push-blocks-push-home-main-screen .main-title {
+    font-size: 38px;
+  }
+}
+@media (max-width: 1200px) {
+  .wp-block-push-blocks-push-home-main-screen .main-title {
+    font-size: 36px;
+  }
+}
+@media (max-width: 575px) {
+  .wp-block-push-blocks-push-home-main-screen .main-title {
+    font-size: 34px;
+  }
+}
+@media (max-width: 440px) {
+  .wp-block-push-blocks-push-home-main-screen .main-title {
+    font-size: 32px;
+  }
+}
+.wp-block-push-blocks-push-home-main-screen .main-title-slider {
+  margin-bottom: 32px;
+}
+.wp-block-push-blocks-push-home-main-screen .main-title-slider p {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  line-height: 1.5;
+  font-size: 40px;
+  letter-spacing: -0.02em;
+  font-family: var(--font-unb);
+  font-weight: 500;
+  color: var(--color-orange);
+}
+@media (max-width: 1400px) {
+  .wp-block-push-blocks-push-home-main-screen .main-title-slider p {
+    font-size: 38px;
+  }
+}
+@media (max-width: 1200px) {
+  .wp-block-push-blocks-push-home-main-screen .main-title-slider p {
+    font-size: 36px;
+  }
+}
+@media (max-width: 575px) {
+  .wp-block-push-blocks-push-home-main-screen .main-title-slider p {
+    font-size: 34px;
+  }
+}
+@media (max-width: 440px) {
+  .wp-block-push-blocks-push-home-main-screen .main-title-slider p {
+    font-size: 32px;
+  }
+}
+.wp-block-push-blocks-push-home-main-screen .button {
+  margin-bottom: 62px;
+}
+.wp-block-push-blocks-push-home-main-screen .button svg path {
+  fill: var(--color-orange);
+}
+.wp-block-push-blocks-push-home-main-screen .items-list {
+  display: flex;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+}
+.wp-block-push-blocks-push-home-main-screen .items-list .item {
+  width: 146px;
+}
+.wp-block-push-blocks-push-home-main-screen .items-list .item .svg-pic {
+  width: 100%;
+  height: auto;
+}
+.wp-block-push-blocks-push-home-main-screen .video-wrapper {
+  position: relative;
+  width: 590px;
+  z-index: 1;
+}
+@media (max-width: 1400px) {
+  .wp-block-push-blocks-push-home-main-screen .video-wrapper {
+    width: 540px;
+  }
+}
+@media (max-width: 1200px) {
+  .wp-block-push-blocks-push-home-main-screen .video-wrapper {
+    width: 490px;
+  }
+}
+.wp-block-push-blocks-push-home-main-screen .video-wrapper video {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: auto;
+}
+.wp-block-push-blocks-push-home-main-screen .video-wrapper .lighting {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  width: 1169px;
+  height: auto;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

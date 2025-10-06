@@ -1,0 +1,249 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/push-our-team/style.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-push-blocks-push-our-team {
+  background-color: var(--color-gray-soft);
+}
+.wp-block-push-blocks-push-our-team .block-title {
+  color: var(--color-black-title);
+  margin-bottom: 32px;
+}
+.wp-block-push-blocks-push-our-team .chief {
+  position: relative;
+}
+.wp-block-push-blocks-push-our-team .chief .decor {
+  position: absolute;
+  z-index: 1;
+  width: 95px;
+  height: auto;
+  top: 24px;
+  right: 36px;
+}
+@media (max-width: 992px) {
+  .wp-block-push-blocks-push-our-team .chief .decor {
+    top: auto;
+    bottom: 0;
+    right: auto;
+    left: 36px;
+    transform: rotate(180deg);
+  }
+}
+@media (max-width: 575px) {
+  .wp-block-push-blocks-push-our-team .chief .decor {
+    width: 65px;
+  }
+}
+.wp-block-push-blocks-push-our-team .chief .pic-wrapper {
+  position: relative;
+  z-index: 2;
+  width: 402px;
+  margin-left: 67px;
+}
+@media (max-width: 1400px) {
+  .wp-block-push-blocks-push-our-team .chief .pic-wrapper {
+    margin-left: 0;
+  }
+}
+@media (max-width: 1200px) {
+  .wp-block-push-blocks-push-our-team .chief .pic-wrapper {
+    width: 340px;
+  }
+}
+@media (max-width: 992px) {
+  .wp-block-push-blocks-push-our-team .chief .pic-wrapper {
+    margin-left: auto;
+  }
+}
+@media (max-width: 575px) {
+  .wp-block-push-blocks-push-our-team .chief .pic-wrapper {
+    width: 60vw;
+  }
+}
+@media (max-width: 380px) {
+  .wp-block-push-blocks-push-our-team .chief .pic-wrapper {
+    width: 70vw;
+  }
+}
+.wp-block-push-blocks-push-our-team .chief .pic-wrapper img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+.wp-block-push-blocks-push-our-team .chief .pic-wrapper .chief-info {
+  position: absolute;
+  z-index: 2;
+  top: 187px;
+  right: -142px;
+  background-color: var(--color-white);
+  padding: 16px 24px;
+  border-radius: 16px;
+  font-family: var(--font-unb);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+@media (max-width: 1200px) {
+  .wp-block-push-blocks-push-our-team .chief .pic-wrapper .chief-info {
+    right: -100px;
+  }
+}
+@media (max-width: 992px) {
+  .wp-block-push-blocks-push-our-team .chief .pic-wrapper .chief-info {
+    right: auto;
+    left: -100px;
+  }
+}
+@media (max-width: 575px) {
+  .wp-block-push-blocks-push-our-team .chief .pic-wrapper .chief-info {
+    padding: 12px 16px;
+    left: -10vw;
+  }
+}
+@media (max-width: 380px) {
+  .wp-block-push-blocks-push-our-team .chief .pic-wrapper .chief-info {
+    top: auto;
+    bottom: 70px;
+  }
+}
+.wp-block-push-blocks-push-our-team .chief .pic-wrapper .chief-info .name {
+  font-size: 24px;
+  color: var(--color-orange);
+  margin-bottom: 8px;
+}
+@media (max-width: 992px) {
+  .wp-block-push-blocks-push-our-team .chief .pic-wrapper .chief-info .name {
+    font-size: 22px;
+  }
+}
+@media (max-width: 440px) {
+  .wp-block-push-blocks-push-our-team .chief .pic-wrapper .chief-info .name {
+    font-size: 20px;
+  }
+}
+.wp-block-push-blocks-push-our-team .chief .pic-wrapper .chief-info .position {
+  margin-bottom: 0;
+  color: var(--color-black-title);
+}
+.wp-block-push-blocks-push-our-team .content {
+  padding-left: 0;
+  padding-right: 0;
+}
+.wp-block-push-blocks-push-our-team .content .text-content {
+  background-color: var(--color-white);
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 52px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+@media (max-width: 992px) {
+  .wp-block-push-blocks-push-our-team .content .text-content {
+    margin-bottom: 32px;
+  }
+}
+.wp-block-push-blocks-push-our-team .content .text-content blockquote {
+  position: relative;
+  margin-bottom: 8px;
+  padding-top: 8px;
+  padding-left: 21px;
+}
+.wp-block-push-blocks-push-our-team .content .text-content blockquote .quote {
+  position: absolute;
+  z-index: 1;
+  width: 30px;
+  height: auto;
+  top: 0;
+  left: 0;
+}
+.wp-block-push-blocks-push-our-team .content .text-content blockquote span {
+  position: relative;
+  z-index: 2;
+  font-family: var(--font-unb);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: var(--color-black-title);
+}
+.wp-block-push-blocks-push-our-team .content .text-content .text p {
+  margin-bottom: 8px;
+  letter-spacing: -0.01em;
+}
+.wp-block-push-blocks-push-our-team .content .text-content .text p:last-child {
+  margin-bottom: 0;
+}
+.wp-block-push-blocks-push-our-team .content .slider-wrapper {
+  position: relative;
+}
+.wp-block-push-blocks-push-our-team .content .slider-wrapper .slider {
+  position: relative;
+  z-index: 1;
+}
+.wp-block-push-blocks-push-our-team .content .slider-wrapper .slider .slide {
+  margin: 0 12px;
+  text-align: center;
+  color: var(--color-black-title);
+}
+.wp-block-push-blocks-push-our-team .content .slider-wrapper .slider .slide .pic-wrapper {
+  overflow: hidden;
+  border-radius: 16px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+.wp-block-push-blocks-push-our-team .content .slider-wrapper .slider .slide .pic-wrapper img {
+  width: 100%;
+  height: auto;
+}
+.wp-block-push-blocks-push-our-team .content .slider-wrapper .slider .slide .name {
+  font-family: var(--font-unb);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  margin-bottom: 4px;
+}
+.wp-block-push-blocks-push-our-team .content .slider-wrapper .slider .slide .description {
+  margin-bottom: 0;
+  font-size: 14px;
+  letter-spacing: -0.01em;
+}
+.wp-block-push-blocks-push-our-team .content .slider-wrapper .control.next {
+  top: 60px;
+  right: 0;
+  transform: translateX(calc(50% - 12px));
+}
+@media (max-width: 1400px) {
+  .wp-block-push-blocks-push-our-team .content .slider-wrapper .control.next {
+    top: 46px;
+  }
+}
+@media (max-width: 1200px) {
+  .wp-block-push-blocks-push-our-team .content .slider-wrapper .control.next {
+    top: 34px;
+  }
+}
+@media (max-width: 992px) {
+  .wp-block-push-blocks-push-our-team .content .slider-wrapper .control.next {
+    top: 65px;
+  }
+}
+@media (max-width: 767px) {
+  .wp-block-push-blocks-push-our-team .content .slider-wrapper .control.next {
+    top: 42px;
+  }
+}
+@media (max-width: 575px) {
+  .wp-block-push-blocks-push-our-team .content .slider-wrapper .control.next {
+    top: 15.47vw;
+    transform: translateX(calc(50% - 26px));
+  }
+}
+@media (max-width: 380px) {
+  .wp-block-push-blocks-push-our-team .content .slider-wrapper .control.next {
+    top: 33.28vw;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

@@ -1,0 +1,241 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-push-blocks-push-our-reviews {
+  background-color: var(--color-white);
+
+  .block-title-small{
+    margin-bottom: 24px;
+    color: var(--color-black-title);
+  }
+
+  .previews-slider-wrapper{
+    margin-bottom: 32px;
+    position: relative;
+
+    @media(max-width: 575px){
+      display: none;
+    }
+
+    &:before,
+    &:after{
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      z-index: 2;
+      width: 70px;
+    }
+
+    &:before{
+      left: 0;
+      background: linear-gradient(90deg, var(--color-white) 0%, var(--color-white) 50%, rgba(0,0,0,0) 100%);
+    }
+    &:after{
+      right: 0;
+      background: linear-gradient(90deg, rgba(0,0,0,0) 0%, var(--color-white) 50%, var(--color-white) 100% );
+    }
+
+    .previews-slider{
+      position: relative;
+      z-index: 1;
+    }
+
+    .slide{
+      @media(max-width: 767px){
+        margin: 0 5px;
+      }
+
+      .company{
+        margin: 0;
+        padding: 8px 24px;
+        border-radius: 8px;
+        transition: all 0.3s;
+        border: 1px solid var(--color-black-text);
+        color: var(--color-black-text);
+        line-height: 1.5;
+        font-family: var(--font-unb);
+        font-weight: 400;
+        letter-spacing: 0.01em;
+        font-size: 16px;
+
+        @media(max-width: 1200px){
+          font-size: 14px;
+        }
+
+        @media(max-width: 767px){
+          padding: 8px 16px;
+        }
+
+        @media(max-width: 575px){
+          padding: 12px;
+        }
+      }
+
+      &.slick-center{
+        .company{
+          background-color: var(--color-orange);
+          border-color: var(--color-orange);
+          color: var(--color-white);
+        }
+      }
+    }
+  }
+
+  .slider-wrapper{
+    position: relative;
+
+    .slider{
+      position: relative;
+      z-index: 1;
+    }
+
+    &:before,
+    &:after{
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      z-index: 2;
+      width: 70px;
+      display: none;
+
+      @media(max-width: 992px){
+        display: block;
+      }
+
+      @media(max-width: 575px){
+        display: none;
+      }
+    }
+
+    &:before{
+      left: 0;
+      background: linear-gradient(90deg, var(--color-white) 0%, var(--color-white) 50%, rgba(0,0,0,0) 100%);
+    }
+    &:after{
+      right: 0;
+      background: linear-gradient(90deg, rgba(0,0,0,0) 0%, var(--color-white) 50%, var(--color-white) 100% );
+    }
+
+    .slide{
+      .image-inner{
+        width: 100%;
+        position: relative;
+        padding-bottom: 56.25%;
+        overflow: hidden;
+        border-radius: 8px;
+        display: block;
+
+        img{
+          position: absolute;
+          inset: 0;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+
+      .video-wrapper{
+        width: 100%;
+        position: relative;
+        padding-bottom: 56.25%;
+        overflow: hidden;
+        border-radius: 8px;
+
+        &:before{
+          content: '';
+          position: absolute;
+          z-index: 2;
+          inset: 0;
+          background-color: rgba(24, 26, 34, 0.5);
+        }
+
+        .author{
+          position: absolute;
+          z-index: 3;
+          top: 24px;
+          left: 24px;
+          right: 24px;
+          color: var(--color-white);
+          letter-spacing: -0.01em;
+
+          .name{
+            font-size: 16px;
+            margin-bottom: 0;
+          }
+
+          .position{
+            font-size: 14px;
+            margin-bottom: 0;
+          }
+        }
+
+        .timing{
+          position: absolute;
+          z-index: 3;
+          bottom: 24px;
+          left: 24px;
+          margin: 0;
+          border-radius: 2px;
+          background-color: var(--color-orange);
+          padding: 1px 4px;
+          font-size: 10px;
+          font-family: var(--font-mons);
+          font-weight: 300;
+          line-height: 1.6;
+          color: var(--color-white);
+
+        }
+
+        .open-review{
+          position: absolute;
+          z-index: 4;
+          inset: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          svg{
+            width: 38px;
+            height: auto;
+          }
+        }
+
+        .youtube{
+          position: absolute;
+          inset: 0;
+          z-index: 1;
+
+          img{
+            width: 100%;
+            height: auto;
+          }
+        }
+
+      }
+    }
+
+    .control{
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 3;
+
+      &.prev{
+        left: 0;
+      }
+
+      &.next{
+        right: 0;
+      }
+    }
+  }
+
+  .slide{
+    margin: 0 12px;
+  }
+
+}

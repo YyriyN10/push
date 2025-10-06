@@ -1,0 +1,83 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/push-contact-form/style.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-push-blocks-push-contact-form {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+.wp-block-push-blocks-push-contact-form .block-title-small {
+  margin-bottom: 32px;
+}
+.wp-block-push-blocks-push-contact-form .image-wrapper {
+  position: relative;
+}
+@media (max-width: 767px) {
+  .wp-block-push-blocks-push-contact-form .image-wrapper {
+    order: 2;
+  }
+}
+.wp-block-push-blocks-push-contact-form .image-wrapper .pic {
+  position: absolute;
+  right: 12px;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+@media (max-width: 767px) {
+  .wp-block-push-blocks-push-contact-form .image-wrapper .pic {
+    position: relative;
+    right: 0;
+    justify-content: center;
+    transform: translateY(40px);
+  }
+}
+@media (max-width: 575px) {
+  .wp-block-push-blocks-push-contact-form .image-wrapper .pic {
+    transform: translateY(35px);
+  }
+}
+@media (max-width: 440px) {
+  .wp-block-push-blocks-push-contact-form .image-wrapper .pic {
+    transform: translateY(30px);
+  }
+}
+.wp-block-push-blocks-push-contact-form .image-wrapper .pic img {
+  height: calc(100% + 60px);
+  width: auto;
+  max-width: 200%;
+}
+@media (max-width: 1400px) {
+  .wp-block-push-blocks-push-contact-form .image-wrapper .pic img {
+    height: calc(100% + 55px);
+  }
+}
+@media (max-width: 1200px) {
+  .wp-block-push-blocks-push-contact-form .image-wrapper .pic img {
+    height: calc(100% + 50px);
+  }
+}
+@media (max-width: 992px) {
+  .wp-block-push-blocks-push-contact-form .image-wrapper .pic img {
+    height: calc(100% + 45px);
+  }
+}
+@media (max-width: 767px) {
+  .wp-block-push-blocks-push-contact-form .image-wrapper .pic img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 767px) {
+  .wp-block-push-blocks-push-contact-form .form-wrapper {
+    order: 1;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

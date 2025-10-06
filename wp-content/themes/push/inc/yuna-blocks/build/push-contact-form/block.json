@@ -1,0 +1,61 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "push-blocks/push-contact-form",
+  "version": "0.1.0",
+  "title": "Контактна фориа",
+  "icon": "forms",
+  "category": "yuna-block-category",
+  "description": "Контактна фориа",
+  "example": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "topIndent": {
+      "enum": [
+        "indent-top-big",
+        "indent-top-small"
+      ],
+      "default": "indent-top-big",
+      "type": "string"
+    },
+    "bottomIndent": {
+      "enum": [
+        "indent-bottom-big",
+        "indent-bottom-small"
+      ],
+      "default": "indent-bottom-big",
+      "type": "string"
+    },
+    "blockTitle": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "imageAlt": {
+      "type": "string",
+      "default": ""
+    },
+    "imageId": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "supports": {
+    "color": {
+      "background": true,
+      "text": true,
+      "heading": true,
+      "gradients": true
+    },
+    "html": false
+  },
+  "textdomain": "push",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

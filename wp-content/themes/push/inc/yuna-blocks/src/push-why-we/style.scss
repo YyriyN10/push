@@ -1,0 +1,160 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-push-blocks-push-why-we {
+  background-color: var(--color-gray-soft);
+
+  .block-title{
+    margin-bottom: 16px;
+    color: var(--color-black-title);
+  }
+
+  .subtilte{
+    font-size: 24px;
+    margin-bottom: 16px;
+    letter-spacing: -0.01em;
+
+    @media(max-width: 992px){
+      font-size: 22px;
+    }
+
+    @media(max-width: 440px){
+      font-size: 20px;
+    }
+  }
+
+  .content{
+    margin-top: 16px;
+
+  }
+
+  .inner{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: -315px 318px 125px 0 rgba(184, 184, 184, 0.00), -202px 203px 115px 0 rgba(184, 184, 184, 0.01), -113px 114px 97px 0 rgba(184, 184, 184, 0.03), -50px 51px 72px 0 rgba(184, 184, 184, 0.05), -13px 13px 39px 0 rgba(184, 184, 184, 0.06);
+    border-radius: 16px;
+
+    @media(max-width: 575px){
+      justify-content: center;
+      gap: 32px;
+      box-shadow: none;
+    }
+  }
+
+  .agency-item{
+    width: 50%;
+    padding: 32px 24px;
+    position: relative;
+
+    @media(max-width: 575px){
+      width: 80%;
+      border-radius: 16px !important;
+      box-shadow: -315px 318px 125px 0 rgba(184, 184, 184, 0.00), -202px 203px 115px 0 rgba(184, 184, 184, 0.01), -113px 114px 97px 0 rgba(184, 184, 184, 0.03), -50px 51px 72px 0 rgba(184, 184, 184, 0.05), -13px 13px 39px 0 rgba(184, 184, 184, 0.06);
+    }
+
+    @media(max-width: 440px){
+      width: calc(100% - 32px);
+    }
+
+    ul{
+      padding: 0;
+      margin: 0;
+      position: relative;
+      z-index: 2;
+      display: grid;
+      gap: 16px;
+
+      li{
+        list-style: none;
+        position: relative;
+        padding-left: 28px;
+        letter-spacing: -0.01em;
+        background-repeat: no-repeat;
+        background-size: 20px auto;
+        background-position: left center;
+      }
+
+      &.other-agency-problem{
+        li{
+          background-image: url("../../img/list-style-close.png");
+        }
+      }
+
+      &.our-agency-advantages{
+        li{
+          background-image: url("../../img/list-style-ch.png");
+          color: var(--color-white);
+        }
+      }
+    }
+
+    &.other-agency{
+      border-radius: 16px 0 0 16px;
+      background-color: var(--color-white);
+
+      .name{
+        color: #656565;
+      }
+    }
+
+    &.our-agency{
+      border-radius: 0 16px 16px 0;
+      background: radial-gradient(196.52% 200.24% at 32.83% 152.74%, #FFA442 0%, #FF4800 53.32%, #000 100%);
+
+      .name{
+        color: var(--color-white);
+      }
+
+      .item-pic{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        transform: translateY(-50%) translateX(50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background-color: var(--color-white);
+
+        @media(max-width: 992px){
+          width: 80px;
+          height: 80px;
+        }
+
+        @media(max-width: 767px){
+          height: 60px;
+          width: 60px;
+        }
+
+        svg{
+          width: 33%;
+          height: auto;
+        }
+      }
+    }
+  }
+
+  .name{
+    text-transform: uppercase;
+    font-family: var(--font-unb);
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 18px;
+    margin-bottom: 24px;
+    position: relative;
+    z-index: 2;
+
+    @media(max-width: 1200px){
+      font-size: 16px;
+    }
+  }
+
+
+}

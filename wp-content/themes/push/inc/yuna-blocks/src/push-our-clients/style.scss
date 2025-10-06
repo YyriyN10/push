@@ -1,0 +1,24 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-push-blocks-push-our-clients {
+  background-color: var(--color-gray-soft);
+
+  .block-title{
+    margin-bottom: 32px;
+    color: var(--color-black-title);
+  }
+
+  .slide{
+    margin: 0 12px;
+  }
+
+  .slick-slide{
+    display: grid !important;
+    row-gap: 24px;
+  }
+}

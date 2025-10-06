@@ -1,0 +1,127 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-push-blocks-push-about-us {
+  background-color: var(--color-gray-soft);
+  .row{
+    align-items: flex-start;
+    row-gap: 24px;
+  }
+
+  .block-title-small{
+    margin-bottom: 32px;
+    color: var(--color-black-title);
+  }
+
+  .part-wrapper{
+    display: grid;
+    gap: 24px;
+  }
+
+  .card-item{
+    border-radius: 16px;
+    padding: 24px;
+    position: relative;
+
+    &.white-item{
+      background-color: var(--color-white);
+
+      .text-who-we-are{
+        font-family: var(--font-unb);
+        font-weight: 400;
+        letter-spacing: -0.01em;
+        color: var(--color-black-title);
+        margin-bottom: 8px;
+      }
+
+      .text-approach{
+        margin-bottom: 0;
+        letter-spacing: -0.01em;
+      }
+
+      .card-title{
+        font-family: var(--font-unb);
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.2;
+        margin-bottom: 8px;
+        color: var(--color-orange);
+        letter-spacing: 0.01em;
+        position: relative;
+        z-index: 2;
+
+        @media(max-width: 1200px){
+          font-size: 16px;
+        }
+      }
+
+      .specialization-list{
+        margin: 0;
+        padding: 0;
+        display: grid;
+        gap: 8px;
+        position: relative;
+        z-index: 2;
+
+        li{
+          list-style: none;
+          position: relative;
+          padding-left: 28px;
+          background-image: url("../../img/list-style-ch.png");
+          background-repeat: no-repeat;
+          background-position: left center;
+          background-size: 20px auto;
+          letter-spacing: -0.01em;
+        }
+      }
+
+      .pic{
+        position: absolute;
+        z-index: 1;
+        width: 91px;
+        right: 24px;
+        bottom: 24px;
+
+        .svg-pic{
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .about-list{
+        padding: 0;
+        margin: 0;
+        display: grid;
+        gap: 16px;
+
+        li{
+          list-style: none;
+          position: relative;
+          padding-left: 30px;
+          background-image: url("../../img/list-style-arrow.png");
+          background-repeat: no-repeat;
+          background-position: left center;
+          background-size: 20px auto;
+          letter-spacing: -0.01em;
+        }
+      }
+    }
+
+    &.accent-item{
+      background: linear-gradient(272deg, #000 -77.37%, #FF4800 15.83%, #FFA442 151.87%);
+
+      .slogan{
+        margin-bottom: 0;
+        font-family: var(--font-unb);
+        font-weight: 500;
+        color: var(--color-white);
+        line-height: 1.2;
+        letter-spacing: 0.01em;
+      }
+    }
+  }
+}

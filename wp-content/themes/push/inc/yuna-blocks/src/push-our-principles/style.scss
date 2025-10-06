@@ -1,0 +1,65 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-push-blocks-push-our-principles {
+  background-color: var(--color-gray-soft);
+
+  .block-title{
+    color: var(--color-black-title);
+    margin-bottom: 32px;
+  }
+
+  .items-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+
+    .item{
+      width: calc(50% - 12px);
+      position: relative;
+      padding: 24px;
+      background-color: var(--color-white);
+
+      @media(max-width: 767px){
+        width: 100%;
+      }
+
+      .pic-wrapper{
+        position: absolute;
+        z-index: 1;
+        top: 24px;
+        right: 24px;
+        width: 91px;
+
+        .svg-pic{
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .name{
+        text-transform: uppercase;
+        background: var(--Gradient-1, linear-gradient(to bottom right, #FFA442 6%, #FF5900 27%, #FF4506 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, #FFA442 6%, #FF5900 27%, #FF4506 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, #FFA442 6%, #FF5900 27%, #FF4506 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, #FFA442 6%, #FF5900 27%, #FF4506 50%) top right / 50% 50% no-repeat);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 8px;
+        position: relative;
+        z-index: 2;
+      }
+
+      .description{
+        margin-bottom: 0;
+        letter-spacing: -0.18px;
+        position: relative;
+        z-index: 2;
+      }
+    }
+  }
+
+
+}

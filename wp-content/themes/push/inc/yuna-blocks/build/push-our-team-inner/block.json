@@ -1,0 +1,50 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "push-blocks/push-our-team-inner",
+  "version": "0.1.0",
+  "title": "Внутрішня картка",
+  "category": "yuna-inner-block-category",
+  "icon": "dashicons-block-default",
+  "description": "Внутрішня картка",
+  "example": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "imageId": {
+      "type": "number",
+      "default": 0
+    },
+    "imageAlt": {
+      "type": "number",
+      "default": 0
+    },
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "blockIndex": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "supports": {
+    "color": {
+      "background": true,
+      "text": true
+    },
+    "html": false
+  },
+  "parent": [
+    "push-blocks/push-our-team"
+  ],
+  "textdomain": "push",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

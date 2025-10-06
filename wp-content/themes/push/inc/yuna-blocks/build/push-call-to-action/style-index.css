@@ -1,0 +1,93 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/push-call-to-action/style.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-push-blocks-push-call-to-action {
+  background: linear-gradient(7deg, #FFA442 -133.4%, #FF4800 -2.34%, #000 112.39%);
+  color: var(--color-white);
+  position: relative;
+}
+.wp-block-push-blocks-push-call-to-action .element {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.wp-block-push-blocks-push-call-to-action .container {
+  position: relative;
+  z-index: 2;
+}
+.wp-block-push-blocks-push-call-to-action .block-title-small {
+  margin-bottom: 16px;
+}
+.wp-block-push-blocks-push-call-to-action .text {
+  font-size: 24px;
+  letter-spacing: -0.01em;
+  margin-bottom: 32px;
+}
+@media (max-width: 992px) {
+  .wp-block-push-blocks-push-call-to-action .text {
+    font-size: 22px;
+  }
+}
+@media (max-width: 440px) {
+  .wp-block-push-blocks-push-call-to-action .text {
+    font-size: 20px;
+  }
+}
+.wp-block-push-blocks-push-call-to-action .button svg path {
+  fill: var(--color-white);
+}
+.wp-block-push-blocks-push-call-to-action .image-wrapper {
+  position: relative;
+}
+.wp-block-push-blocks-push-call-to-action .image-wrapper .pic {
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  bottom: -60px;
+}
+@media (max-width: 1440px) {
+  .wp-block-push-blocks-push-call-to-action .image-wrapper .pic {
+    bottom: -55px;
+  }
+}
+@media (max-width: 1200px) {
+  .wp-block-push-blocks-push-call-to-action .image-wrapper .pic {
+    bottom: -50px;
+  }
+}
+@media (max-width: 992px) {
+  .wp-block-push-blocks-push-call-to-action .image-wrapper .pic {
+    bottom: -45px;
+  }
+}
+@media (max-width: 767px) {
+  .wp-block-push-blocks-push-call-to-action .image-wrapper .pic {
+    position: relative;
+    bottom: 0;
+    transform: translateY(40px);
+  }
+}
+@media (max-width: 575px) {
+  .wp-block-push-blocks-push-call-to-action .image-wrapper .pic {
+    transform: translateY(35px);
+  }
+}
+@media (max-width: 440px) {
+  .wp-block-push-blocks-push-call-to-action .image-wrapper .pic {
+    transform: translateY(30px);
+  }
+}
+.wp-block-push-blocks-push-call-to-action .image-wrapper .pic img {
+  width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

@@ -1,0 +1,216 @@
+/*!********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/push-our-reviews/style.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-push-blocks-push-our-reviews {
+  background-color: var(--color-white);
+}
+.wp-block-push-blocks-push-our-reviews .block-title-small {
+  margin-bottom: 24px;
+  color: var(--color-black-title);
+}
+.wp-block-push-blocks-push-our-reviews .previews-slider-wrapper {
+  margin-bottom: 32px;
+  position: relative;
+}
+@media (max-width: 575px) {
+  .wp-block-push-blocks-push-our-reviews .previews-slider-wrapper {
+    display: none;
+  }
+}
+.wp-block-push-blocks-push-our-reviews .previews-slider-wrapper:before, .wp-block-push-blocks-push-our-reviews .previews-slider-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  width: 70px;
+}
+.wp-block-push-blocks-push-our-reviews .previews-slider-wrapper:before {
+  left: 0;
+  background: linear-gradient(90deg, var(--color-white) 0%, var(--color-white) 50%, rgba(0, 0, 0, 0) 100%);
+}
+.wp-block-push-blocks-push-our-reviews .previews-slider-wrapper:after {
+  right: 0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, var(--color-white) 50%, var(--color-white) 100%);
+}
+.wp-block-push-blocks-push-our-reviews .previews-slider-wrapper .previews-slider {
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 767px) {
+  .wp-block-push-blocks-push-our-reviews .previews-slider-wrapper .slide {
+    margin: 0 5px;
+  }
+}
+.wp-block-push-blocks-push-our-reviews .previews-slider-wrapper .slide .company {
+  margin: 0;
+  padding: 8px 24px;
+  border-radius: 8px;
+  transition: all 0.3s;
+  border: 1px solid var(--color-black-text);
+  color: var(--color-black-text);
+  line-height: 1.5;
+  font-family: var(--font-unb);
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  font-size: 16px;
+}
+@media (max-width: 1200px) {
+  .wp-block-push-blocks-push-our-reviews .previews-slider-wrapper .slide .company {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  .wp-block-push-blocks-push-our-reviews .previews-slider-wrapper .slide .company {
+    padding: 8px 16px;
+  }
+}
+@media (max-width: 575px) {
+  .wp-block-push-blocks-push-our-reviews .previews-slider-wrapper .slide .company {
+    padding: 12px;
+  }
+}
+.wp-block-push-blocks-push-our-reviews .previews-slider-wrapper .slide.slick-center .company {
+  background-color: var(--color-orange);
+  border-color: var(--color-orange);
+  color: var(--color-white);
+}
+.wp-block-push-blocks-push-our-reviews .slider-wrapper {
+  position: relative;
+}
+.wp-block-push-blocks-push-our-reviews .slider-wrapper .slider {
+  position: relative;
+  z-index: 1;
+}
+.wp-block-push-blocks-push-our-reviews .slider-wrapper:before, .wp-block-push-blocks-push-our-reviews .slider-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  width: 70px;
+  display: none;
+}
+@media (max-width: 992px) {
+  .wp-block-push-blocks-push-our-reviews .slider-wrapper:before, .wp-block-push-blocks-push-our-reviews .slider-wrapper:after {
+    display: block;
+  }
+}
+@media (max-width: 575px) {
+  .wp-block-push-blocks-push-our-reviews .slider-wrapper:before, .wp-block-push-blocks-push-our-reviews .slider-wrapper:after {
+    display: none;
+  }
+}
+.wp-block-push-blocks-push-our-reviews .slider-wrapper:before {
+  left: 0;
+  background: linear-gradient(90deg, var(--color-white) 0%, var(--color-white) 50%, rgba(0, 0, 0, 0) 100%);
+}
+.wp-block-push-blocks-push-our-reviews .slider-wrapper:after {
+  right: 0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, var(--color-white) 50%, var(--color-white) 100%);
+}
+.wp-block-push-blocks-push-our-reviews .slider-wrapper .slide .image-inner {
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  border-radius: 8px;
+  display: block;
+}
+.wp-block-push-blocks-push-our-reviews .slider-wrapper .slide .image-inner img {
+  position: absolute;
+  inset: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.wp-block-push-blocks-push-our-reviews .slider-wrapper .slide .video-wrapper {
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.wp-block-push-blocks-push-our-reviews .slider-wrapper .slide .video-wrapper:before {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  inset: 0;
+  background-color: rgba(24, 26, 34, 0.5);
+}
+.wp-block-push-blocks-push-our-reviews .slider-wrapper .slide .video-wrapper .author {
+  position: absolute;
+  z-index: 3;
+  top: 24px;
+  left: 24px;
+  right: 24px;
+  color: var(--color-white);
+  letter-spacing: -0.01em;
+}
+.wp-block-push-blocks-push-our-reviews .slider-wrapper .slide .video-wrapper .author .name {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.wp-block-push-blocks-push-our-reviews .slider-wrapper .slide .video-wrapper .author .position {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.wp-block-push-blocks-push-our-reviews .slider-wrapper .slide .video-wrapper .timing {
+  position: absolute;
+  z-index: 3;
+  bottom: 24px;
+  left: 24px;
+  margin: 0;
+  border-radius: 2px;
+  background-color: var(--color-orange);
+  padding: 1px 4px;
+  font-size: 10px;
+  font-family: var(--font-mons);
+  font-weight: 300;
+  line-height: 1.6;
+  color: var(--color-white);
+}
+.wp-block-push-blocks-push-our-reviews .slider-wrapper .slide .video-wrapper .open-review {
+  position: absolute;
+  z-index: 4;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wp-block-push-blocks-push-our-reviews .slider-wrapper .slide .video-wrapper .open-review svg {
+  width: 38px;
+  height: auto;
+}
+.wp-block-push-blocks-push-our-reviews .slider-wrapper .slide .video-wrapper .youtube {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+.wp-block-push-blocks-push-our-reviews .slider-wrapper .slide .video-wrapper .youtube img {
+  width: 100%;
+  height: auto;
+}
+.wp-block-push-blocks-push-our-reviews .slider-wrapper .control {
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+}
+.wp-block-push-blocks-push-our-reviews .slider-wrapper .control.prev {
+  left: 0;
+}
+.wp-block-push-blocks-push-our-reviews .slider-wrapper .control.next {
+  right: 0;
+}
+.wp-block-push-blocks-push-our-reviews .slide {
+  margin: 0 12px;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

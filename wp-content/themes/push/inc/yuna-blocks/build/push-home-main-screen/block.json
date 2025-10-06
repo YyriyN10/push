@@ -1,0 +1,47 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "push-blocks/push-home-main-screen",
+  "version": "0.1.0",
+  "title": "Головний екран головной сторінки",
+  "icon": "cover-image",
+  "category": "yuna-block-category",
+  "description": "Головний екран головной сторінки",
+  "example": {},
+  "attributes": {
+    "mainTitle": {
+      "type": "string"
+    },
+    "mainTitleServicesList": {
+      "type": "string",
+      "default": ""
+    },
+    "videoFile": {
+      "type": "string",
+      "default": ""
+    },
+    "videoPoster": {
+      "type": "string",
+      "default": ""
+    },
+    "btnText": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "supports": {
+    "color": {
+      "background": true,
+      "text": true,
+      "heading": true,
+      "gradients": true
+    },
+    "html": false
+  },
+  "textdomain": "push",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}

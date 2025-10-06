@@ -1,0 +1,121 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-push-blocks-push-faq {
+  background-color: var(--color-gray-soft);
+
+  .block-title{
+    margin-bottom: 32px;
+    color: var(--color-black-title);
+  }
+
+  .accordion-faq{
+    display: grid;
+    gap: 16px;
+
+    .card{
+      background-color: var(--color-white);
+      border-radius: 16px;
+      box-shadow: 0 30px 100px 0 rgba(119, 119, 119, 0.10);
+
+      .card-header{
+        .btn{
+          padding: 24px 144px 24px 64px;
+          position: relative;
+          font-family: var(--font-unb);
+          font-weight: 500;
+          line-height: 1.2;
+          letter-spacing: 0.18px;
+          color: var(--color-black) !important;
+          transition: all 0.3s;
+
+          @media(max-width: 992px){
+            padding-left: 32px;
+            padding-right: 112px;
+          }
+
+          @media(max-width: 767px){
+            padding-right: 86px;
+          }
+
+          @media(max-width: 440px){
+            padding: 24px 60px 24px 24px;
+          }
+
+          .indicator{
+            position: absolute;
+            width: 48px;
+            height: auto;
+            top: 50%;
+            right: 64px;
+            transform: translateY(-50%) rotate(180deg);;
+            transition: all 0.2s;
+
+            @media(max-width: 992px){
+              right: 32px;
+            }
+
+            @media(max-width: 767px){
+              width: 32px;
+            }
+
+            @media(max-width: 440px){
+              width: 24px;
+              right: 24px;
+            }
+
+            path{
+              stroke: var(--color-orange);
+              transition: all 0.3s;
+            }
+          }
+
+          &.collapsed{
+            padding-top: 37px;
+            padding-bottom: 37px;
+
+            @media(max-width: 440px){
+              padding-top: 32px;
+              padding-bottom: 32px;
+            }
+
+            .indicator{
+              transform: translateY(-50%);
+
+              path{
+                stroke: var(--color-black-text);
+              }
+            }
+          }
+        }
+      }
+
+      .card-body{
+        padding: 0 144px 24px 64px;
+
+        @media(max-width: 992px){
+          padding: 0 112px 24px 32px;
+        }
+
+        @media(max-width: 767px){
+          padding-right: 86px;
+        }
+
+        @media(max-width: 440px){
+          padding: 0 24px 24px 24px;
+        }
+
+        ul,
+        ol{
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+
+}

@@ -1,0 +1,255 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-push-blocks-push-our-team {
+  background-color: var(--color-gray-soft);
+
+  .block-title{
+    color: var(--color-black-title);
+    margin-bottom: 32px;
+  }
+
+  .chief{
+    position: relative;
+
+    .decor{
+      position: absolute;
+      z-index: 1;
+      width: 95px;
+      height: auto;
+      top: 24px;
+      right: 36px;
+
+      @media(max-width: 992px){
+        top: auto;
+        bottom: 0;
+        right: auto;
+        left: 36px;
+        transform: rotate(180deg);
+      }
+
+      @media(max-width: 575px){
+        width: 65px;
+      }
+    }
+
+    .pic-wrapper{
+      position: relative;
+      z-index: 2;
+      width: 402px;
+      margin-left: 67px;
+      
+      @media(max-width: 1400px){
+        margin-left: 0;
+      }
+
+      @media(max-width: 1200px){
+        width: 340px;
+      }
+
+      @media(max-width: 992px){
+        margin-left: auto;
+      }
+
+      @media(max-width: 575px){
+        width: 60vw;
+      }
+
+      @media(max-width: 380px){
+        width: 70vw;
+      }
+
+      img{
+        width: 100%;
+        height: auto;
+        position: relative;
+        z-index: 1;
+      }
+
+      .chief-info{
+        position: absolute;
+        z-index: 2;
+        top: 187px;
+        right: -142px;
+        background-color: var(--color-white);
+        padding: 16px 24px;
+        border-radius: 16px;
+        font-family: var(--font-unb);
+        font-weight: 400;
+        letter-spacing: -0.01em;
+
+        @media(max-width: 1200px){
+          right: -100px;
+        }
+
+        @media(max-width: 992px){
+          right: auto;
+          left: -100px;
+        }
+
+        @media(max-width: 575px){
+          padding: 12px 16px;
+          left: -10vw;
+        }
+
+        @media(max-width: 380px){
+          top: auto;
+          bottom: 70px;
+        }
+
+        .name{
+          font-size: 24px;
+          color: var(--color-orange);
+          margin-bottom: 8px;
+
+          @media(max-width: 992px){
+            font-size: 22px;
+          }
+
+          @media(max-width: 440px){
+            font-size: 20px;
+          }
+        }
+
+        .position{
+          margin-bottom: 0;
+          color: var(--color-black-title);
+        }
+      }
+    }
+  }
+
+  .content{
+    padding-left: 0;
+    padding-right: 0;
+
+    .text-content{
+      background-color: var(--color-white);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 52px;
+      margin-left: 12px;
+      margin-right: 12px;
+
+      @media(max-width: 992px){
+        margin-bottom: 32px;
+      }
+
+      blockquote{
+        position: relative;
+        margin-bottom: 8px;
+        padding-top: 8px;
+        padding-left: 21px;
+
+        .quote{
+          position: absolute;
+          z-index: 1;
+          width: 30px;
+          height: auto;
+          top: 0;
+          left: 0;
+        }
+
+        span{
+          position: relative;
+          z-index: 2;
+          font-family: var(--font-unb);
+          font-weight: 400;
+          letter-spacing: -0.01em;
+          color: var(--color-black-title);
+        }
+      }
+
+      .text{
+        p{
+          margin-bottom: 8px;
+          letter-spacing: -0.01em;
+
+          &:last-child{
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+
+    .slider-wrapper{
+      position: relative;
+
+      .slider{
+        position: relative;
+        z-index: 1;
+
+        .slide{
+          margin: 0 12px;
+          text-align: center;
+          color: var(--color-black-title);
+
+          .pic-wrapper{
+            overflow: hidden;
+            border-radius: 16px;
+            width: 100%;
+            margin-bottom: 8px;
+
+            img{
+              width: 100%;
+              height: auto;
+            }
+          }
+
+          .name{
+            font-family: var(--font-unb);
+            font-weight: 400;
+            letter-spacing: -0.01em;
+            margin-bottom: 4px;
+          }
+
+          .description{
+            margin-bottom: 0;
+            font-size: 14px;
+            letter-spacing: -0.01em;
+          }
+        }
+      }
+
+      .control{
+
+        &.next{
+          top: 60px;
+          right: 0;
+          transform: translateX(calc(50% - 12px));
+
+          @media(max-width: 1400px){
+            top: 46px;
+          }
+
+          @media(max-width: 1200px){
+            top: 34px;
+          }
+
+          @media(max-width: 992px){
+            top: 65px;
+          }
+
+          @media(max-width: 767px){
+            top: 42px;
+          }
+
+          @media(max-width: 575px){
+            top: 15.47vw;
+            transform: translateX(calc(50% - 26px));
+          }
+
+          @media(max-width: 380px){
+            top: 33.28vw;
+          }
+        }
+      }
+    }
+  }
+
+
+}

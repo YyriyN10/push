@@ -1,0 +1,82 @@
+/*!****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/push-numbers/style.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-push-blocks-push-numbers {
+  background-color: var(--color-gray-soft);
+}
+.wp-block-push-blocks-push-numbers .items-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 0;
+}
+.wp-block-push-blocks-push-numbers .items-list .item {
+  width: calc(25% - 18px);
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  background-color: var(--color-black);
+  padding: 16px 24px 32px;
+}
+@media (max-width: 992px) {
+  .wp-block-push-blocks-push-numbers .items-list .item {
+    width: calc(50% - 12px);
+  }
+}
+@media (max-width: 440px) {
+  .wp-block-push-blocks-push-numbers .items-list .item {
+    width: 100%;
+  }
+}
+.wp-block-push-blocks-push-numbers .items-list .item .pic-wrapper {
+  position: absolute;
+  z-index: 1;
+  width: 91px;
+  top: 50%;
+  right: 24px;
+  transform: translateY(-50%);
+}
+.wp-block-push-blocks-push-numbers .items-list .item .number {
+  position: relative;
+  z-index: 2;
+  color: var(--color-orange);
+  letter-spacing: -1%;
+  font-size: 36px;
+  line-height: 1.2;
+  font-family: var(--font-unb);
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+@media (max-width: 1400px) {
+  .wp-block-push-blocks-push-numbers .items-list .item .number {
+    font-size: 34px;
+  }
+}
+@media (max-width: 1200px) {
+  .wp-block-push-blocks-push-numbers .items-list .item .number {
+    font-size: 32px;
+  }
+}
+@media (max-width: 992px) {
+  .wp-block-push-blocks-push-numbers .items-list .item .number {
+    font-size: 34px;
+  }
+}
+@media (max-width: 440px) {
+  .wp-block-push-blocks-push-numbers .items-list .item .number {
+    font-size: 36px;
+  }
+}
+.wp-block-push-blocks-push-numbers .items-list .item .description {
+  color: var(--color-white);
+  margin-bottom: 0;
+  letter-spacing: -1%;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

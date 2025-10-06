@@ -1,0 +1,149 @@
+/*!***************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/push-why-we/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-push-blocks-push-why-we {
+  background-color: var(--color-gray-soft);
+}
+.wp-block-push-blocks-push-why-we .block-title {
+  margin-bottom: 16px;
+  color: var(--color-black-title);
+}
+.wp-block-push-blocks-push-why-we .subtilte {
+  font-size: 24px;
+  margin-bottom: 16px;
+  letter-spacing: -0.01em;
+}
+@media (max-width: 992px) {
+  .wp-block-push-blocks-push-why-we .subtilte {
+    font-size: 22px;
+  }
+}
+@media (max-width: 440px) {
+  .wp-block-push-blocks-push-why-we .subtilte {
+    font-size: 20px;
+  }
+}
+.wp-block-push-blocks-push-why-we .content {
+  margin-top: 16px;
+}
+.wp-block-push-blocks-push-why-we .inner {
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: -315px 318px 125px 0 rgba(184, 184, 184, 0), -202px 203px 115px 0 rgba(184, 184, 184, 0.01), -113px 114px 97px 0 rgba(184, 184, 184, 0.03), -50px 51px 72px 0 rgba(184, 184, 184, 0.05), -13px 13px 39px 0 rgba(184, 184, 184, 0.06);
+  border-radius: 16px;
+}
+@media (max-width: 575px) {
+  .wp-block-push-blocks-push-why-we .inner {
+    justify-content: center;
+    gap: 32px;
+    box-shadow: none;
+  }
+}
+.wp-block-push-blocks-push-why-we .agency-item {
+  width: 50%;
+  padding: 32px 24px;
+  position: relative;
+}
+@media (max-width: 575px) {
+  .wp-block-push-blocks-push-why-we .agency-item {
+    width: 80%;
+    border-radius: 16px !important;
+    box-shadow: -315px 318px 125px 0 rgba(184, 184, 184, 0), -202px 203px 115px 0 rgba(184, 184, 184, 0.01), -113px 114px 97px 0 rgba(184, 184, 184, 0.03), -50px 51px 72px 0 rgba(184, 184, 184, 0.05), -13px 13px 39px 0 rgba(184, 184, 184, 0.06);
+  }
+}
+@media (max-width: 440px) {
+  .wp-block-push-blocks-push-why-we .agency-item {
+    width: calc(100% - 32px);
+  }
+}
+.wp-block-push-blocks-push-why-we .agency-item ul {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+  display: grid;
+  gap: 16px;
+}
+.wp-block-push-blocks-push-why-we .agency-item ul li {
+  list-style: none;
+  position: relative;
+  padding-left: 28px;
+  letter-spacing: -0.01em;
+  background-repeat: no-repeat;
+  background-size: 20px auto;
+  background-position: left center;
+}
+.wp-block-push-blocks-push-why-we .agency-item ul.other-agency-problem li {
+  background-image: url(../images/list-style-close.fb52b982.png);
+}
+.wp-block-push-blocks-push-why-we .agency-item ul.our-agency-advantages li {
+  background-image: url(../images/list-style-ch.db58ac66.png);
+  color: var(--color-white);
+}
+.wp-block-push-blocks-push-why-we .agency-item.other-agency {
+  border-radius: 16px 0 0 16px;
+  background-color: var(--color-white);
+}
+.wp-block-push-blocks-push-why-we .agency-item.other-agency .name {
+  color: #656565;
+}
+.wp-block-push-blocks-push-why-we .agency-item.our-agency {
+  border-radius: 0 16px 16px 0;
+  background: radial-gradient(196.52% 200.24% at 32.83% 152.74%, #FFA442 0%, #FF4800 53.32%, #000 100%);
+}
+.wp-block-push-blocks-push-why-we .agency-item.our-agency .name {
+  color: var(--color-white);
+}
+.wp-block-push-blocks-push-why-we .agency-item.our-agency .item-pic {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  transform: translateY(-50%) translateX(50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--color-white);
+}
+@media (max-width: 992px) {
+  .wp-block-push-blocks-push-why-we .agency-item.our-agency .item-pic {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (max-width: 767px) {
+  .wp-block-push-blocks-push-why-we .agency-item.our-agency .item-pic {
+    height: 60px;
+    width: 60px;
+  }
+}
+.wp-block-push-blocks-push-why-we .agency-item.our-agency .item-pic svg {
+  width: 33%;
+  height: auto;
+}
+.wp-block-push-blocks-push-why-we .name {
+  text-transform: uppercase;
+  font-family: var(--font-unb);
+  font-weight: 600;
+  line-height: 1.2;
+  font-size: 18px;
+  margin-bottom: 24px;
+  position: relative;
+  z-index: 2;
+}
+@media (max-width: 1200px) {
+  .wp-block-push-blocks-push-why-we .name {
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

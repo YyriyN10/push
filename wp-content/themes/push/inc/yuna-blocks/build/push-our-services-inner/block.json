@@ -1,0 +1,78 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "push-blocks/push-our-services-inner",
+  "version": "0.1.0",
+  "title": "Внутрішня картка",
+  "category": "yuna-inner-block-category",
+  "icon": "dashicons-block-default",
+  "description": "Внутрішня картка",
+  "example": {},
+  "attributes": {
+    "itemImageUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "itemImageId": {
+      "type": "number",
+      "default": 0
+    },
+    "itemImageAlt": {
+      "type": "number",
+      "default": 0
+    },
+    "itemName": {
+      "type": "string"
+    },
+    "itemDescription": {
+      "type": "string"
+    },
+    "itemLink": {
+      "type": "number",
+      "default": 0
+    },
+    "itemIcon1Url": {
+      "type": "string",
+      "default": ""
+    },
+    "itemIcon1Id": {
+      "type": "number",
+      "default": 0
+    },
+    "itemIcon1Alt": {
+      "type": "string",
+      "default": ""
+    },
+    "itemIcon2Url": {
+      "type": "string",
+      "default": ""
+    },
+    "itemIcon2Id": {
+      "type": "number",
+      "default": 0
+    },
+    "itemIcon2Alt": {
+      "type": "string",
+      "default": ""
+    },
+    "blockIndex": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "supports": {
+    "color": {
+      "background": true,
+      "text": true
+    },
+    "html": false
+  },
+  "parent": [
+    "push-blocks/push-our-services"
+  ],
+  "textdomain": "push",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}
